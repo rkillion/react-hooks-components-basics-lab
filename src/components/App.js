@@ -16,6 +16,8 @@ function Home() {
   );
 }
 
+const About = () => <div id="about">I will pass the test!</div>
+
 {/* write an <About> component here */}
 
 
@@ -23,6 +25,8 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Home />
+      <About />
       {/* add the <Home> component here */}
       {/* add your <About> component here */}
     </div>
